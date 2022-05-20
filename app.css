@@ -173,7 +173,7 @@ h1:hover {
 }
 
 .card>h3 {
-    font-size: min(7vw, 1.5rem);
+    font-size: min(7vw, 1.3rem);
     font-weight: 700;
 }
 
@@ -213,7 +213,6 @@ h1:hover {
 .card {
     padding: 2.3em 2em;
     max-width: 340px;
-    max-height: 540px;
     display: flex;
     border-radius: 1.5rem;
     flex-direction: column;
@@ -518,7 +517,6 @@ article:nth-of-type(3) div {
     font-size: min(5vw, 2rem);
     max-width: 930px;
     font-weight: 500;
-    max-height: 160px;
 }
 
 .author>img {
@@ -552,12 +550,11 @@ article:nth-of-type(3) div {
 footer {
     margin-top: 6rem;
     color: #fff;
-    height: 700px;
     background-color: #100E1D;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 1.5em;
+    padding: 2em 0 10em 0;
     position: relative;
 }
 
@@ -621,6 +618,7 @@ footer .brand+div {
 footer>p {
     position: absolute;
     bottom: 0;
+    left: 0;
     font-size: 0.9rem;
     text-align: center;
     width: 100%;
@@ -706,12 +704,11 @@ footer>p {
 
     input {
         font-family: inherit;
-        padding: 0.8em 1.55em;
+        padding: 1.04em 1.55em;
         background-color: var(--color-grey-light);
         border-radius: 0.8rem;
         border: none;
         width: min(100%, 350px);
-        height: 57px;
     }
 
     button[type="submit"] {
@@ -780,11 +777,10 @@ footer>p {
 
 @media(min-width: 660px) {
     footer {
-        height: 400px;
         display: flex;
         flex-direction: row;
         gap: 0;
-        padding: 5em 10em 5em 10em;
+        padding: 5em;
     }
 
     input {
@@ -810,6 +806,11 @@ footer>p {
 }
 
 @media(min-width: 770px) {
+    .cards {
+        flex-direction: row;
+        gap: 0;
+    }
+
     .primary-navigation {
         margin-right: 1rem;
     }
@@ -838,9 +839,10 @@ footer>p {
 }
 
 @media(min-width: 850px) {
-    .cards {
-        flex-direction: row;
-        gap: 0;
+
+    .card>h3 {
+        font-size: min(7vw, 1.5rem);
+        font-weight: 700;
     }
 }
 
