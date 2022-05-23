@@ -635,7 +635,7 @@ footer>p {
     .hero-btn {
         position: absolute;
         bottom: 3px;
-        left: 215px;
+        left: 214px;
     }
 
     .footer-btn {
@@ -722,7 +722,7 @@ footer>p {
 
     .hero-btn {
         bottom: 3px;
-        left: 262px;
+        left: 261.5px;
     }
 
     .services-section h2 {
@@ -861,7 +861,7 @@ footer>p {
 @media(min-width: 1130px) {
     .footer-btn {
         position: absolute;
-        left: 182px;
+        left: 181px;
     }
 
     .email-input {
